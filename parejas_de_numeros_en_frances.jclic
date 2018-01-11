@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="parejas_de_numeros_en_frances" version="0.1.3">
+ <settings>
+  <title>Parejas de numeros en francés</title>
+  <revision description="created" date="11/22/17" />
+  <descriptors />
+ </settings>
+ <sequence>
+  <item id="start" name="Asocia" />
+ </sequence>
+ <activities>
+  <activity class="@memory.MemoryGame" name="Asocia" code="">
+   <description />
+   <messages>
+    <cell txtAlign="right,middle" type="final">
+     <style>
+      <color background="0x33CC00" />
+     </style>
+     <p>Fantastique!, pour recommencer, cliquez sur la flèche                                                ----&gt;</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <color background="0xFF0000" />
+     </style>
+     <p>Mauvais couple, continue d´eassayer</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <helpWindow>
+     <p>Pulsa sobre las cartas y ve memorizando las que salgan para hacer parejas.</p>
+    </helpWindow>
+    <container bgColor="0xFFFFFF">
+     <counters time="false" actions="false" score="true" />
+    </container>
+    <window bgColor="0xFFFF00" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="250.0" cellHeight="235.0" border="true" id="primary">
+    <style borderStroke="0.7" markerStroke="5.0">
+     <color background="0x00CCCC" inactive="0xFFFFFF" alternative="0x999999" />
+    </style>
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell>
+     <p>1</p>
+     <p>UN</p>
+    </cell>
+    <cell>
+     <p>2</p>
+     <p>DEUX</p>
+    </cell>
+    <cell>
+     <p>3</p>
+     <p>TROIS</p>
+    </cell>
+    <cell>
+     <p>4</p>
+     <p>QUATRE</p>
+    </cell>
+    <cell>
+     <p>5</p>
+     <p>CINQ</p>
+    </cell>
+    <cell>
+     <p>6</p>
+     <p>SIX</p>
+    </cell>
+    <cell>
+     <p>7</p>
+     <p>SEPT</p>
+    </cell>
+    <cell>
+     <p>8</p>
+     <p>HUIT</p>
+    </cell>
+    <cell>
+     <p>9</p>
+     <p>NEUF</p>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag />
+</JClicProject>
+

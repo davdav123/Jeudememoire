@@ -1,0 +1,22 @@
+{
+  "title": "Parejas de numeros en francés",
+  "date": "22/11/17",
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "parejas_de_numeros_en_frances.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "files": [
+    "favicon.ico",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "parejas_de_numeros_en_frances.jclic",
+    "parejas_de_numeros_en_frances.jclic.js",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json"
+  ]
+}
